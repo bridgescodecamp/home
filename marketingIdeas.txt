@@ -1,0 +1,24 @@
+front end developer CodeCamp self paced education skills and tools of a software developer learning test for interest With
+	a new take on education that falls somewhere between self-taught prodigy and four-year computer science degree, the Flatiron
+	School promises to turn coding bootcamp students with little programming experience into developers. learn the programming
+	language learn how to build business applications create a portfolio students learn by building STUDENT OUTCOMES tution
+	What Will I Learn
+
+
+
+	<h1>Code for a New Life</h1>
+	<h1>Code for a Career</h1>
+	<h1>Code for a Change</h1>
+	<h1>Change. Grow. Code.</h1>
+	<p>
+		At Bridges CodeCamp you will learn the skills to launch a your new career.
+	</p>
+	<p>
+		You will become a Front-End Developer.
+	</p>
+	<a href="is-coding-right-for-you.html" class="btn btn-primary">See if Coding is for You</a>
+	<h2>Become a Front-End Developer</h2>
+
+
+
+	<a href="http://codecamp.edu/string-encoding-tools.html">String Encoding Tools ...</a>

@@ -79,20 +79,28 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       $teal !default;
+$primary-lighter:       rgba(lighten($primary, 20%), .15)  !default;
+$primary-lightest:      rgba(lighten($primary, 40%), .15)  !default;
 $secondary:     $tan !default;
+$secondary-lighter:       rgba(lighten($secondary, 10%), .15)  !default;
+$secondary-lightest:      rgba(lighten($secondary, 15%), .15)  !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $beige !default;
-$lighter:       lighten($light, 16%) !default;
-$lightest:      lighten($light, 18%) !default;
+$lighter:       rgba(lighten($light, 16%), .50)  !default;
+$lightest:      rgba(lighten($light, 18%), .10)  !default;
 $dark:          $gray-800 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
-  "primary":    $primary,
+  "primary":            $primary,
+  "primary-lighter":    $primary-lighter,
+  "primary-lightest":   $primary-lightest,
   "secondary":  $secondary,
+  "secondary-lighter":    $secondary-lighter,
+  "secondary-lightest":   $secondary-lightest,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
