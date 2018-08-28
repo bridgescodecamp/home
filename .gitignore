@@ -1,0 +1,11 @@
+
+docs/*
+!docs/index.html
+
+sites/*
+!sites/index.html
+
+/temp
+.DS_Store
+
+node_modules
