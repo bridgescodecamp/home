@@ -92,6 +92,8 @@ $light:         $beige !default;
 $lighter:       rgba(lighten($light, 16%), .50)  !default;
 $lightest:      rgba(lighten($light, 18%), .10)  !default;
 $dark:          $gray-800 !default;
+$darker:        darken($dark, 5%) !default;
+$darkest:       darken($dark, 10%) !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -108,7 +110,9 @@ $theme-colors: map-merge((
   "light":      $light,
   "lighter":    $lighter,
   "lightest":   $lightest,
-  "dark":       $dark
+  "dark":       $dark,
+  "darker":     $darker,
+  "darkest":    $darkest
 ), $theme-colors);
 // stylelint-enable
 
