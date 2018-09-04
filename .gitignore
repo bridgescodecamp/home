@@ -8,4 +8,6 @@ sites/*
 /temp
 .DS_Store
 
+web.config
+
 node_modules
