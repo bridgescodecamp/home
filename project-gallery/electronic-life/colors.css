@@ -1,0 +1,30 @@
+td {
+    border-radius: 50%;
+}
+.background {
+    background-color: lightgoldenrodyellow;
+}
+[class~="#"] {
+    background-color: black;
+}
+[class~="%"]{
+    background-color: blue;
+}
+[class~="$"]{
+    background-color: orange;
+}
+.x {
+    background-color: yellowgreen;
+}
+[class~="@"]{
+    background-color: red;
+}
+[class~="*"] {
+    background-color: chartreuse;
+}
+[class~="."] {
+    background-color: lightpink;
+}
+[class~="o"]{
+    background-color: brown;
+}

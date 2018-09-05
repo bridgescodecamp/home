@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Life, the Game</title>
+        <link rel="stylesheet" href="colors.css">
+    </head>
+    <body>
+        <script src="src-life.js"></script>
+        <script src="animateworld.js"></script>
+        <script src="animateDOMWorld.js"></script>
+        <script>
+            var chaos = randomPlan(240,110,legend);
+            var DOMWorld = new LifelikeWorld(chaos, legend);
+            runGame(DOMWorld);
+            
+            //animateWorld(world);
+        </script>
+    </body>
+</html>
