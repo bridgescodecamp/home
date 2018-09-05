@@ -9630,6 +9630,10 @@ a.text-darkest:hover, a.text-darkest:focus {
   }
 }
 
+body {
+  background-color: #116466;
+}
+
 .splash-code {
   background: url("/assets/images/splash/close-up-code-coding-1089440.jpg") no-repeat;
   background-size: 3000px;
@@ -9643,6 +9647,10 @@ a.text-darkest:hover, a.text-darkest:focus {
 
 .jumbotron-people {
   background-color: rgba(255, 250, 246, 0.1);
+}
+
+.table th {
+  font-weight: normal;
 }
 
 .text-blue {

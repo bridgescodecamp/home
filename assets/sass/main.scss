@@ -1,3 +1,8 @@
+
+body {
+	background-color: $primary;
+}
+
 .splash-code{
 	background: url("/assets/images/splash/close-up-code-coding-1089440.jpg") no-repeat;
 	background-size: 3000px;
@@ -10,3 +15,10 @@
 .jumbotron-people{
 	background-color: $lightest;
 }
+
+.table {
+  
+	th {
+	  font-weight: normal;
+	}
+  }
