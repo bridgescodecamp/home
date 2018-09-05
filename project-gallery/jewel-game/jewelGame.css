@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2 { 
+    margin-top: 15px;
+    font-size: 34px;
+    padding-left: 17px;
+    color: purple;
+}
+h3 {
+    margin: 0px;
+    padding: 7px 0px 0px 0px;
+}
+#board {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 635px;
+    height: 470px;
+    background: repeating-linear-gradient(red, orange, yellow, green, blue, purple);
+    background: -moz-repeating-linear-gradient(red, orange, yellow, green, blue, purple);
+    border: 1px solid purple;
+    border-radius: 20px;
+}
+#cover { background-color: black; }
+#noClick { background-color: rgba(255, 255, 255, 0); }
+
+.grid {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(65, 65, 65, 0.6);
+    border: 4px solid rgb(0, 77, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.end {
+    margin: 170px 0px 0px 0px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.clear {
+    background-color: rgba(49, 49, 49, 0.466);
+}
+
+.leftBox {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.button {
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px black;
+    width: 170px;
+    height: 36px;
+    text-align: center;
+    left: 24px;
+    cursor: pointer;
+}
+.button:active {
+    box-shadow: 0px 0px 0px black;
+    color: white;
+}
+#newGame  { top: 56px; background: rgb(23, 182, 2);}
+#pause    { top: 98px; background: yellow;}
+#loadGame { top: 140px; background: blue; color: white; width: 80px; left: 114px;}
+#saveGame { top: 140px; background: rgb(43, 177, 255); width: 80px;}
+#quitGame { top: 182px; background: orange;}
+#clearData { top: 225px; background: red;}
+
+#scoreBox {
+    top: 278px;
+    width: 190px;
+    height: 24px;
+    left: 10px;
+    background-color: black;
+    color: yellow;
+    border: 2px solid black;
+    padding: 6px 6px 0px 0px;
+    text-align: right;
+    font-family: courier, monospace;
+    border: 2px solid green;
+    border-radius: 3px;
+}
+#scoreBubble {
+    height: 76px;
+    width: 100px;
+    left: 56px;
+    top: 316px;
+    padding-top: 24px;
+    border: 3px solid #cc0000;
+    border-radius: 50%;
+    text-align: center;
+    background-image: radial-gradient(rgba(64, 222, 250, 0.80), rgba(0, 0, 0, 0));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: red;
+}
+#level {
+    top: 422px;
+    left: 70px;
+    font-family: "Comic Sans MS", "Courier New", Courier, monospace;
+    font-size: 30px;
+    color: greenyellow;
+}
+#timeMeter {
+    position: absolute;
+    overflow: hidden;
+    height: 30px;
+    width: 400px;
+    background: black;
+    right: 12px;
+    top: 426px;
+    border: 2px solid yellowgreen;
+    border-radius: 16px;
+}
+#timeLeft {
+    height: 30px;
+    background: greenyellow;
+    width: 50%;
+}
+
+.gem {
+    position: absolute;
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    padding: 0px;
+    margin: 0px;
+}
+.opal { clip-path: polygon(50% 0%, 95% 30%, 95% 70%, 50% 100%, 5% 70%, 5% 30%); background: rgb(255, 145, 0); }
+.diamond { clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 50% 100%, 0% 30%); background:rgb(156, 253, 255);}
+.emerald { clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); background: rgb(60, 230, 38); }
+.ruby { clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); background: rgb(255, 27, 27);}
+.saphire { clip-path: polygon(50% 0%, 100% 100%, 0% 100%); background: rgb(34, 147, 253); }  
+.pearl { border-radius: 50%; background: white; }
+.rhinestone { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); background: rgb(236, 13, 236); }
+.clear { border: 0px solid black; background: rgba(0, 0, 0, 0); }
+
+.sml {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
