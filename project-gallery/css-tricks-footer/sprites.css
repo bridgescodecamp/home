@@ -1,0 +1,39 @@
+.icon {
+    background-image: url("http://codecamp.edu/educationMaterials/projects/workbenchProjects/css-tricks-footer/sprite-map.svg");
+    display: block;
+    width: 100%;
+}
+.sprite-getNews {
+    background-position: 0px -59px;
+    height: 63px;
+    width: 300px;
+    float: left;
+}
+.sprite-mediatemple {
+    background-size: 497px;
+    float: right;
+    background-position: 0px -204px;
+    height: 44px;
+    width: 497px;
+}
+.sprite-message {
+    background-position: -101px 0;
+    height: 38px;
+    width: 40px;
+    margin: 36px 26px;
+}
+.sprite-envelope {
+    background-position: -218px 0;
+    height: 40px;
+    width: 50px;
+    background-color: #FFF;
+    border: 11px solid white;
+}
+.sprite-star {
+    background-position:  0 0;
+    height: 57px;
+    width: 51px;
+    margin: 20px auto;
+    background-color: #000;
+
+}

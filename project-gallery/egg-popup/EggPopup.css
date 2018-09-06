@@ -1,0 +1,55 @@
+body{
+    background: black;
+}
+#EggTop{ 
+    background: url("egg-top.png") no-repeat;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+#EggBottom{    
+    background: url("egg-bottom-small.png")  no-repeat;
+    height: 700px;
+    width: 800px;
+    position: absolute;
+    top: 105%;
+    left: 30%;   
+}
+#Dirt{
+    background: url("egg-bottom-dirt.png") no-repeat;
+    height: 500px;
+    width: 750px;
+    position: absolute; 
+    top: 145%;
+    left: 30%;
+}
+.shake{
+    animation-name: shake;
+    animation-duration: 200ms;
+    animation-iteration-count: 15;
+}
+@keyframes shake{    
+    25%{
+        left: 30.5%;
+    }
+    75%{
+       left: 29.5%;
+   }  
+}
+.hatch{
+    animation-name: hatch;
+    animation-duration: 5000ms;
+}
+ @keyframes hatch{
+    0%{
+         top: 85%;
+     }
+     50%{
+         top: 69%;
+     }
+    100%{
+         top: 85%;
+     }
+ }

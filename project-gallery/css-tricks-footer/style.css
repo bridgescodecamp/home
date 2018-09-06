@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 670px;
+    margin: 0 15px;
+    min-width: 1180px;
+    font-family: Futura, sans-serif;
+    font-size: 14px;
+}
+
+/* Row height */
+.h-1 {
+    height: 140px;
+}
+.h-2 {
+    height: 120px;
+}
+.h-3 {
+    height: 405px;
+    /* I moved this from body because of a weird padding issue */
+    border-bottom: 5px solid #FF9800;
+}
+
+/* Column widths */
+.col_1 {
+    width: 100px;
+}
+.col {
+    padding: 40px 46px;
+}
+.col_3 {
+    width: 340px;
+    padding: 40px 46px;
+}
+.reset {
+    padding: 0;
+}
+/* colors go from dark to light
+color0 being the darkest */
+.color0 {
+    background-color: #000;
+}
+.color1 {
+    background-color: #111;
+}
+.color2 {
+    background-color: #252525;
+    color: #AAA;
+}
+.color3 {
+    background-color: #282828;
+}
+.color4 {
+    background-color: #363636;
+}
+.color5 {
+    background-color: #A8A8A8;
+}
+.color6 {
+    background-color: #BFBFBF;
+}
+.color7 {
+    background-color: #D5D5D5;
+}
+.color8 {
+    background-color: #FFFFFF;
+}
+
+/* Cell layouts*/
+
+.highlight-orange{
+    color: #FF9800;
+    font-weight: bold;
+}
+.highlight-gray{
+    color: #555;
+    font-weight: bold;
+}
+.email_group {
+    height: 40px;
+    display: flex;
+    float: right;
+    margin: 10px -10px;
+}
+.email_block {
+    height: 40px;
+    border: 0;
+}
+.button {
+    border: 0;
+    background-color: #7DB1EF;
+    color: #FFF;
+    height: 40px;
+    padding: 0 20px;
+    margin: auto 15px;
+}
+.button:hover {
+    background-color: #000;
+}
+.job {
+    width: 100%;
+    margin: 10px 0;
+}
+#follow {
+    font-size: 10px;
+    margin: 0;
+    padding: 5px 8px;
+    background-color: #1B95E0;
+    border-radius: 5px;
+}
+.footnote {
+    font-size: 10px;
+    padding: 10px 0;
+}
+h4 {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+p a {
+    color: black;  
+}
+p a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid #C5ECFE;
+}
+ul li {
+    font-family: Futura, sans-serif;
+    font-stretch: condensed;
+    list-style-type: none;
+    font-size: 22px;
+    margin: 0px 15px;
+}
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer {
+    padding: 27px 40px;
+}
+#backgroundDiag {
+    background: repeating-linear-gradient(-45deg,#fcc, #fcc 1px, #FFF 0, #FFF 8px);
+}
+#star {
+    background-color: #000;
+    height: 100px;
+    padding: 1px 0;
+    margin-top: 300px;
+}
