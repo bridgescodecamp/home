@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "css": "npm-run-all --parallel css-compile* --sequential css-minify*",
-    "css-compile": "node-sass --output-style expanded --precision 6 assets/sass/main-build.scss assets/css/main-1.css",
+    "css-compile": "node-sass --output-style expanded --precision 6 styles/main-build.scss assets/css/main-1.css",
     "css-minify": "cleancss --level 1 --output assets/css/main-1.min.css assets/css/main-1.css"
   },
   "repository": "http://git.cua.edu/BridgesHome.git",
